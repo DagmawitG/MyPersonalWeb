@@ -7,10 +7,12 @@
 }
 .navbar-light .navbar-nav {
     border-bottom: 2px solid red;
-    width:40%;
+    width:50%;
 }
-.navbar.navbar-light .top-nav-collapse .navbar-nav .nav-item .nav-link {
-    color: red;
+
+.navbar .nav-link {
+    color: black;
+    font-weight: bold;
 }
 .carousel-inner img {
     width: 100%;
@@ -22,3 +24,19 @@
   #descSpace{
     margin-top: 100px;  
   }
+  #pFont{
+      font-size: 40px;
+  }
+  p>a{
+      color: red;
+  }
+  #colour{
+    color: red;
+}
+div>a{
+    color:black;
+}
+#BtnCenter{
+    text-align: center;
+}
+
