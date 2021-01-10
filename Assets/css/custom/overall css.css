@@ -9,6 +9,10 @@
     border-bottom: 2px solid red;
     width:50%;
 }
+#btnborder{
+    border-bottom: 2px solid lightgray;
+    width:70%;
+}
 
 .navbar .nav-link {
     color: black;
@@ -20,6 +24,9 @@
   }
   #space {
     margin-top: 100px;
+  }
+  #icons {
+    margin-top: 20px;
   }
   #descSpace{
     margin-top: 100px;  
@@ -38,5 +45,13 @@ div>a{
 }
 #BtnCenter{
     text-align: center;
+}
+#btnn{
+    color: red;
+    
+}
+.contain img{
+    width: 70px;
+    height: 70px;
 }
 
