@@ -1,13 +1,14 @@
 #body{
-    background-color: #fbf9f4;
+    background-color: #f0f7fa;
+    font-size: larger; 
     
 }
 .nav-bar-right{
     color: black;
 }
-.navbar-light .navbar-nav {
-    border-bottom: 2px solid red;
-    width:50%;
+.navbar-light .navbar-nav :hover {
+        text-decoration: underline green;
+  
 }
 #btnborder{
     border-bottom: 2px solid lightgray;
@@ -18,6 +19,10 @@
     color: black;
     font-weight: bold;
 }
+#Profile{
+    width:100%;
+    height: auto;
+}
 .carousel-inner img {
     width: 100%;
     height: 100%;
@@ -25,20 +30,24 @@
   #space {
     margin-top: 100px;
   }
+  #spaceResume {
+    margin-top: 60px;
+  }
   #icons {
     margin-top: 20px;
   }
   #descSpace{
-    margin-top: 100px;  
+    margin-top: 100px; 
+    
   }
   #pFont{
       font-size: 40px;
   }
   p>a{
-      color: red;
+      color: #033628;
   }
   #colour{
-    color: red;
+    color: #172a3a;
 }
 div>a{
     color:black;
@@ -47,22 +56,64 @@ div>a{
     text-align: center;
 }
 #btnn{
-    color: red;
+    color: green;
     
 }
 .contain img{
     width: 70px;
     height: 70px;
 }
-#abtpic{
+#abtPic{
     margin-top: 60px;
     width: 100%;
-    height: 150px;
+    height:300px;
+}
+#resumePic{
+    margin-top: 60px;
+    width: 100%;
+    height:150px; 
 }
 
 
 #abtborder{
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid green;
     width:fit-content;
     
 }
+#greenColor{
+    color: #04835f;
+}
+.abtPic{
+    margin-left:36%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+
+}
+.centered {
+    color: white; 
+    background: url(./Assets/Images/pomegranate.jpg) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  ;}
+  .circle{
+      border-radius:50% ;
+      border:solid 1px #04835f;
+      width: 30px;
+      height: 30px;}
+      
+      .greencircle{
+        border-radius:50% ;
+        background:#04835f ;
+        border:solid  #04835f;
+        width: 30px;
+        height: 30px;}
+   .line{
+       border-left:solid 1px #04835f ;
+       height: 200px;
+       margin-left: 12px;
+       
+   }
+   .alignment{
+       vertical-align: baseline;
+   }  
