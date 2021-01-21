@@ -1,10 +1,28 @@
 #body{
     background-color: #f0f7fa;
     font-size: larger; 
-    
+   
+    font-family: 'Karla', sans-serif;
+    font-family: 'Lato', sans-serif;
+   
 }
-.nav-bar-right{
-    color: black;
+
+a :hover{
+    
+    color: #04835f;
+    
+
+}
+a :active {
+    color: #04835f;
+  }
+
+
+nav{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    text-decoration: black;
 }
 .navbar-light .navbar-nav :hover {
         text-decoration: underline green;
@@ -40,8 +58,11 @@
     margin-top: 100px; 
     
   }
-  #pFont{
+  #pfont{
       font-size: 40px;
+      font-family: 'Bodoni Moda', serif;
+font-family: 'Playfair Display', serif;
+      
   }
   p>a{
       color: #033628;
