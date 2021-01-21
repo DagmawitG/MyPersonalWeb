@@ -94,6 +94,13 @@ div>a{
     width: 100%;
     height:150px; 
 }
+#name{
+    font-size: 30px;
+}
+
+#name :hover{
+    color: #04835f;
+}
 
 
 #abtborder{
@@ -138,3 +145,6 @@ div>a{
    .alignment{
        vertical-align: baseline;
    }  
+   #imgSize{
+       height: 200px;
+   }
